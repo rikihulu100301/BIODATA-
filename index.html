@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Riki Yarton Hulu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #00c6ff, #0072ff); /* Warna latar belakang gradasi */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .biodata-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 20px;
+            z-index: 2; /* Pastikan biodata di atas gambar */
+        }
+
+        h1 {
+            color: #3498db; /* Warna biru untuk judul */
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            color: #333333; /* Warna teks untuk subjudul */
+        }
+
+        .section p {
+            color: #555555; /* Warna teks untuk paragraf */
+            line-height: 1.5; /* Jarak antar baris */
+        }
+
+        ul {
+            list-style-type: disc; /* Bullet list */
+            margin-left: 20px; /* Jarak dari tepi */
+        }
+
+        .animation-container {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: #ffffff;
+            font-size: 48px; /* Ukuran font lebih besar */
+            font-weight: bold;
+            animation: blink 1s infinite; /* Animasi kelap-kelip */
+        }
+
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1; /* Tidak transparan */
+            }
+            50% {
+                opacity: 0.5; /* Transparan setengah */
+            }
+        }
+
+        /* Gambar Latar Belakang */
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1517841905240-47298e25d4f4'); /* Gambar latar belakang */
+            background-size: cover;
+            filter: blur(8px); /* Efek blur untuk latar belakang */
+            z-index: 1; /* Pastikan gambar di belakang */
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-left: 20px;
+        }
+
+        .image-container img {
+            max-width: 300px; /* Ukuran maksimal gambar */
+            border-radius: 10px;
+            animation: float 3s ease-in-out infinite; /* Animasi gambar */
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translatey(0); /* Posisi awal dan akhir */
+            }
+            50% {
+                transform: translatey(-10px); /* Naik sedikit saat animasi */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .animation-container {
+                font-size: 36px; /* Ukuran font lebih kecil di layar kecil */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div> <!-- Gambar latar belakang -->
+    <div class="biodata-container">
+        <h1>Biodata</h1>
+        <div class="section">
+            <h2>Data Pribadi</h2>
+            <p><strong>Nama:</strong> Riki Yarton Hulu</p>
+            <p><strong>Tempat:</strong> Nias</p>
+            <p><strong>Tanggal Lahir:</strong> Ada di KTP</p>
+            <p><strong>Agama:</strong> Katolik</p>
+            <p><strong>Alamat:</strong> Ombolata Alasa Nias Utara</p>
+            <p><strong>Email:</strong> <a href="mailto:rikiyarton100301@gmail.com">rikiyarton100301@gmail.com</a></p>
+            <p><strong>No. HP:</strong> 082360408927</p>
+        </div>
+        <div class="section">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li>SD Negeri No 077288 Hilisoromi</li>
+                <li>SMP Negeri 1 Alasa</li>
+                <li>SMA Negeri 1 Alasa</li>
+            </ul>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="https://media.giphy.com/media/xT9Igx3u7Qj5rWqN9y/giphy.gif" alt="Gambar Animasi" /> <!-- Gambar animasi -->
+    </div>
+    <div class="animation-container"> <!-- Animasi Teks -->
+        Riki Yarton Hulu
+    </div>
+</body>
+</html>
